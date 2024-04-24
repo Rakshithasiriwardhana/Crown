@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 import { Routes, Route } from "react-router-dom";
 // import { useContext } from "react";
 // import { UserContext } from "./contexts/user.context";
@@ -7,6 +8,13 @@ import Navigation from "./routes/navigation/navigation.component";
 import Authentication from "./routes/authentication/authentication.component";
 import Shop from "./routes/shop/shop.component";
 import Checkout from "./routes/checkout/checkout";
+=======
+import Directory from './components/directory/directory.component';
+import { Routes, Route } from 'react-router-dom';
+import Navigation from './routes/navigation/navigation';
+import Home from './routes/home/home.component';
+import SignIn from './components/sign-in/SignIn';
+>>>>>>> Stashed changes
 
 // const Shop = () => {
 //   return <h1>I am the shop page</h1>;
