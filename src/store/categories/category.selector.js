@@ -16,3 +16,4 @@ export const selectCategoriesMap = createSelector(
       return acc;
     }, {})
 );
+
